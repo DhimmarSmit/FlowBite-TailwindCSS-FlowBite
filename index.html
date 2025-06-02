@@ -24,8 +24,8 @@
                     <span class="sr-only">Open main menu</span>
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                         viewBox="0 0 17 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M1 1h15M1 7h15M1 13h15" />
+                        <path stroke="currentColor" class="text-white" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
                     </svg>
                 </button>
                 <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
@@ -100,57 +100,66 @@
                 </div>
             </div>
         </nav>
-        <div class="flex justify-between items-center">
+        <div class="flex justify-center items-center">
             <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover -z-10 blur-xs">
                 <source src="video-2.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
 
 
-            <div class="container flex px-[140px] mt-[150px] mb-[120px] ">
+            <div
+                class="container flex max-[1200px]:flex-wrap px-[140px] mt-[150px] mb-[120px] max-[1200px]:mt-[120px] max-[1200px]:px-[10px]">
                 <div>
-                    <h1 class="text-6xl text-white font-semibold">Empowering Futures Through Education</h1>
-                    <p class="text-lg text-white my-6 w-[75%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <h1 class="text-6xl text-white font-semibold max-[1200px]:text-lg max-[1200px]:leading-tight max-[1200px]:text-center">
+                        Empowering Futures Through Education</h1>
+                    <p
+                        class="text-lg text-white my-6 w-[75%] max-[1200px]:text-sm max-[1200px]:leading-tight max-[1200px]:my-3 max-[1200px]:text-center max-[1200px]:w-full">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Sed
                         vitae diam
                         ornare, imperdiet est eget,
                         pretium augue. Nullam auctor felis in nibh gravida, eu viverra risus egestas.</p>
-                    <div class="btn flex gap-2">
-                        <button type="button" class="p-4 bg-green-600 font-bold rounded-lg text-white">Start your
+                    <div class="btn flex gap-2 flex-wrap max-[1200px]:justify-center max-[1200px]:items-center">
+                        <button type="button"
+                            class="p-4 bg-green-600 font-bold rounded-lg text-white max-[1200px]:p-2 max-[1200px]:text-sm">Start
+                            your
                             journey</button>
                         <button type="button"
-                            class="p-4 bg-[#252524] border border-black font-bold rounded-lg text-white">Discover
+                            class="p-4 bg-[#252524] border border-black font-bold rounded-lg text-white max-[1200px]:p-2 max-[1200px]:text-sm">Discover
                             programs</button>
                     </div>
                 </div>
-                <div class="w-[70%] bg-gray-700 bg-opacity-80 border border-black p-8 rounded-lg mx-auto">
+                <div
+                    class="w-[70%] bg-gray-700 bg-opacity-80 border border-black p-8 rounded-lg mx-auto max-[1200px]:w-full max-[1200px]:p-[10px] max-[1200px]:mt-5 ">
                     <!-- Heading -->
-                    <h1 class="text-center text-[40px] font-semibold text-white mb-2">
+                    <h1 class="text-center text-[40px] font-semibold text-white mb-2 max-[1200px]:text-sm">
                         Why Choose Us
                     </h1>
-                    <div class="w-16 h-1 bg-green-500 mx-auto mb-10 rounded"></div>
+                    <div class="w-16 h-1 bg-green-500 mx-auto mb-10 rounded max-[1200px]:mb-2"></div>
 
                     <!-- Stats Grid -->
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 text-start text-white">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 text-start text-white max-[1200px]:grid-cols-2 max-[1200px]:gap-3">
 
                         <!-- Item 1 -->
-                        <div class="flex items-center space-x-3">
-                            <div class="bg-green-500 p-3 rounded">
+                        <div
+                            class="flex items-center space-x-3 max-[1200px]:flex-col max-[1200px]:space-x-0 max-[1200px]:flex-wrap max-[1200px]:justify-center max-[1200px]:text-center">
+                            <div class="bg-green-500 p-3 rounded max-[1200px]:p-[0px] max-[1200px]:mx-auto ">
                                 <!-- Trophy Icon -->
-                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <svg class="w-6 h-6 text-white  " fill="currentColor" viewBox="0 0 20 20">
                                     <path
                                         d="M4 3a1 1 0 000 2v2a5 5 0 005 5v2H7a1 1 0 000 2h6a1 1 0 000-2h-2v-2a5 5 0 005-5V5a1 1 0 000-2H4z" />
                                 </svg>
                             </div>
                             <div>
-                                <h2 class="text-green-500 font-bold text-3xl">98%</h2>
-                                <p class="text-gray-100">Graduate Employment</p>
+                                <h2 class="text-green-500 font-bold text-3xl max-[1200px]:text-sm ">98%</h2>
+                                <p class="text-gray-100 max-[1200px]:leading-tight max-[1200px]:text-[0.8rem]">Graduate Employment</p>
                             </div>
                         </div>
 
                         <!-- Item 2 -->
-                        <div class="flex items-center space-x-3">
-                            <div class="bg-green-500 p-3 rounded">
+                        <div
+                            class="flex items-center space-x-3  max-[1200px]:flex-col max-[1200px]:space-x-0 max-[1200px]:flex-wrap max-[1200px]:justify-center max-[1200px]:text-center">
+                            <div class="bg-green-500 p-3 rounded max-[1200px]:p-[0px] max-[1200px]:mx-auto ">
                                 <!-- Globe Icon -->
                                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                                     <path
@@ -158,77 +167,79 @@
                                 </svg>
                             </div>
                             <div>
-                                <h2 class="text-green-500 font-bold text-3xl">45+</h2>
-                                <p class="text-gray-100">International Partners</p>
+                                <h2 class="text-green-500 font-bold text-3xl max-[1200px]:text-sm">45+</h2>
+                                <p class="text-gray-100 max-[1200px]:text-[0.8rem]">International Partners</p>
                             </div>
                         </div>
 
                         <!-- Item 3 -->
-                        <div class="flex items-center space-x-3">
-                            <div class="bg-green-500 p-3 rounded">
+                        <div
+                            class="flex items-center space-x-3 max-[1200px]:flex-col max-[1200px]:space-x-0 max-[1200px]:flex-wrap max-[1200px]:justify-center max-[1200px]:text-center">
+                            <div class="bg-green-500 p-3 rounded max-[1200px]:p-[0px] max-[1200px]:mx-auto">
                                 <!-- Academic Cap Icon -->
                                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
                                     <path d="M12 2L1 7l11 5 9-4.09V17h2V7L12 2z" />
                                 </svg>
                             </div>
                             <div>
-                                <h2 class="text-green-500 font-bold text-3xl">15:1</h2>
-                                <p class="text-gray-100">Student-Faculty Ratio</p>
+                                <h2 class="text-green-500 font-bold text-3xl max-[1200px]:text-sm">15:1</h2>
+                                <p class="text-gray-100 max-[1200px]:text-[0.8rem]">Student-Faculty Ratio</p>
                             </div>
                         </div>
 
                         <!-- Item 4 -->
-                        <div class="flex items-center space-x-3">
-                            <div class="bg-green-500 p-3 rounded">
-                                <!-- Book Icon -->
+                        <div
+                            class="flex items-center max-[1200px]:flex-col space-x-3 max-[1200px]:space-x-0 max-[1200px]:flex-wrap max-[1200px]:justify-center max-[1200px]:text-center">
+                            <div class="bg-green-500 p-3 rounded max-[1200px]:p-[0px] max-[1200px]:mx-auto">
+                                <!-- Academic Cap Icon -->
                                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
                                     <path
                                         d="M19 2H6a2 2 0 00-2 2v16a1 1 0 001.45.9L12 18l6.55 2.9A1 1 0 0020 20V4a2 2 0 00-1-1.73z" />
                                 </svg>
                             </div>
                             <div>
-                                <h2 class="text-green-500 font-bold text-3xl">120+</h2>
-                                <p class="text-gray-100">Degree Programs</p>
+                                <h2 class="text-green-500 font-bold text-3xl max-[1200px]:text-sm">120+</h2>
+                                <p class="text-gray-100 max-[1200px]:text-[0.8rem]">Degree Programs</p>
                             </div>
                         </div>
-
+                        
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
 
     </section>
-    <section class="flex justify-between items-center px-[140px] bg-[#08915E] py-6">
-        <div class="flex gap-2">
-            <p class="py-[2px] px-[8px] border border-white rounded-sm text-white">NOV 15</p>
+    <section class="flex justify-between items-center px-[140px] bg-[#08915E] py-6 max-[1200px]:px-[10px] max-[1200px]:flex-wrap max-[1200px]:gap-2">
+        <div class="flex gap-2 max-[1200px]:justify-between max-[1200px]:w-full ">
+            <p class="py-[2px] px-[8px] border border-white rounded-sm text-white ">NOV 15</p>
             <p class="text-white">Open House Day</p>
             <button class="bg-[#2DA176] py-[2px] px-[8px] text-white ">Register</button>
         </div>
-        <div class="flex gap-2">
-            <p class="py-[2px] px-[8px] border border-white rounded-sm text-white">DEC 5</p>
+        <div class="flex gap-2 max-[1200px]:justify-between max-[1200px]:w-full max-[1200px]:gap-0">
+            <p class="py-[2px] px-[8px] border border-white rounded-sm text-white">DEC 05</p>
             <p class="text-white">Application Workshop</p>
             <button class="bg-[#2DA176] py-[2px] px-[8px] text-white ">Register</button>
         </div>
-        <div class="flex gap-2">
-            <p class="py-[2px] px-[8px] border border-white rounded-sm text-white">Jan 10</p>
-            <p class="text-white">International Student Orientation</p>
+        <div class="flex gap-2 max-[1200px]:justify-between max-[1200px]:w-full">
+            <p class="py-[2px] px-[8px] border border-white rounded-sm text-white">JAN 10</p>
+            <p class="text-white max-[1200px]:text-center">International Student Orientation</p>
             <button class="bg-[#2DA176] py-[2px] px-[8px] text-white ">Register</button>
         </div>
     </section>
-    <section class="flex relative bg-[#f5fafa] px-[40px] lg:px-[140px] py-[20px] lg:py-[80px]">
+    <section class="flex relative px-[40px] lg:px-[140px] py-[20px] lg:py-[80px] max-[1200px]:px-[10px] max-[1200px]:flex-wrap">
         <!-- Left Content -->
-        <div class="w-full lg:w-1/2">
-            <h1 class="text-5xl lg:text-[3.0vw] font-semibold mb-10 text-[#2D465E]">
+        <div class="w-full lg:w-1/2 max-[1200px]:w-full max-[1200px]:flex-wrap">
+            <h1 class="text-5xl lg:text-[3.0vw] font-semibold mb-10 text-[#2D465E] max-[1200px]:text-lg max-[1200px]:text-center max-[1200px]:mb-5 max-[1200px]:mt-10">
                 Empowering Minds, <span class="text-green-600">Shaping Futures</span>
             </h1>
-            <p class="text-[#2D465E] mb-7 text-lg">
+            <p class="text-[#2D465E] mb-7 text-lg max-[1200px]:text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
                 luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </p>
 
             <!-- Stats -->
-            <div class="flex flex-wrap gap-7 mb-10">
+            <div class="flex flex-wrap gap-7 mb-10 max-[1200px]:gap-2 max-[1200px]:justify-around max-[1200px]:items-center">
                 <div
                     class="p-4 shadow-lg rounded-lg flex flex-col justify-center items-center border-b-4 border-b-green-500 w-[100px]">
                     <h1 class="text-3xl text-[#2D465E] font-semibold">25+</h1>
@@ -249,7 +260,7 @@
             <hr class="border-gray-300" />
 
             <!-- Signature -->
-            <div class="flex gap-5 mt-5 items-center">
+            <div class="flex gap-5 mt-5 items-center max-[1200px]:justify-center">
                 <img src="signature-1.webp" class="w-[120px]" alt="Signature" />
                 <div>
                     <h1 class="font-semibold text-[#2D465E]">Dr. Elizabeth Morgan</h1>
@@ -259,21 +270,21 @@
         </div>
 
         <!-- Right Image Stack -->
-        <div class="w-full lg:w-1/2 relative flex justify-center items-center pl-10">
+        <div class="w-full lg:w-1/2 relative flex pl-10 max-[1200px]:pl-0 max-[1200px]:w-full max-[1200px]:mt-10 max-[1200px]:h-[250px] max-[1200px]:justify-center">
             <!-- Outer container to stack -->
-            <div class="relative w-[320px] lg:w-[500px] lg:h-[450px]">
+            <div class="relative w-[320px] lg:w-[500px] lg:h-[450px] max-[1200px]:flex max-[1200px]:">
                 <!-- Background image -->
                 <img src="campus-4.webp" alt="Campus Life"
-                    class="absolute top-0 right-10  object-cover rounded-xl shadow-lg z-0" />
+                    class="object-cover rounded-xl shadow-lg z-0 max-[1200px]:h-[200px]" />
 
                 <!-- Foreground image -->
                 <img src="students-2.webp" alt="Students"
-                    class="absolute bottom-[-40px] right-[-40px] w-[500px] object-cover rounded-xl shadow-2xl z-10" />
+                    class="absolute bottom-[-40px] right-[-120px] w-[500px] object-cover rounded-xl shadow-2xl z-10 max-[1200px]:top-[80px] max-[1200px]:left-[30px]" />
             </div>
         </div>
     </section>
 
-    <section class="flex px-[140px] py-[120px] justify-between items-center">
+    <section class="flex px-[140px] py-[120px] justify-between items-center max-[1200px]:px-[10px] max-[1200px]:flex-wrap max-[1200px]:gap-2 max-[1200px]:py-[30px] max-[1200px]:mt-[100px] max-[1200px]:justify-center">
 
         <a href="#" class="block max-w-sm p-6 bg-white border rounded-lg shadow-sm hover:bg-gray-100">
             <i class="ri-rocket-line text-[#08915E] p-3 rounded-2xl border bg-[#E6F4EE]"></i>
@@ -300,26 +311,26 @@
         </a>
 
     </section>
-    <section class="px-[140px]">
-        <div class="flex items-center justify-center gap-6">
-            <div class="w-20 h-1 bg-green-500 rounded"></div>
-            <h1 class="text-center text-3xl text-[#2D465E] font-semibold">Featured Programs</h1>
-            <div class="w-20 h-1 bg-green-500 rounded"></div>
+    <section class="px-[140px] max-[1200px]:px-[10px]">
+        <div class="flex items-center justify-center gap-6 max-[1200px]:gap-2">
+            <div class="w-20 h-1 bg-green-500 rounded max-[1200px]:w-12"></div>
+            <h1 class="text-center text-3xl text-[#2D465E] font-semibold max-[1200px]:text-3xl">Featured Programs</h1>
+            <div class="w-20 h-1 bg-green-500 rounded max-[1200px]:w-12"></div>
         </div>
         <p class="text-center mt-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
         </p>
 
-        <div class="flex items-center justify-center mt-12">
+        <div class="flex items-center justify-center mt-12 max-[1200px]:flex-wrap max-[1200px]:mt-7">
             <button type="button"
-                class="text-white bg-green-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-2xl text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none dark:focus:ring-blue-800">All
+                class="text-white bg-green-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none dark:focus:ring-blue-800">All
                 Programs</button>
             <button type="button"
-                class=" hover:bg-green-600 hover:text-white bg-[#DDE3E4] focus:ring-4 focus:ring-blue-300 font-medium rounded-2xl text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none dark:focus:ring-blue-800">Bachelor's
+                class=" hover:bg-green-600 hover:text-white bg-[#DDE3E4] focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none dark:focus:ring-blue-800">Bachelor's
             </button>
             <button type="button"
-                class=" hover:bg-green-600 hover:text-white bg-[#DDE3E4] focus:ring-4 focus:ring-blue-300 font-medium rounded-2xl text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none dark:focus:ring-blue-800">Master's</button>
+                class=" hover:bg-green-600 hover:text-white bg-[#DDE3E4] focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none dark:focus:ring-blue-800">Master's</button>
             <button type="button"
-                class=" hover:bg-green-600 hover:text-white bg-[#DDE3E4] focus:ring-4 focus:ring-blue-300 font-medium rounded-2xl text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none dark:focus:ring-blue-800">Certificate</button>
+                class=" hover:bg-green-600 hover:text-white bg-[#DDE3E4] focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none dark:focus:ring-blue-800">Certificate</button>
         </div>
 
         <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-10 text-start">
@@ -440,22 +451,22 @@
         </div>
 
     </section>
-    <section class="px-[140px] mt-24 ">
-        <div class="flex items-center justify-center gap-6">
-            <div class="w-20 h-1 bg-green-500 rounded"></div>
-            <h1 class="text-center text-3xl text-[#2D465E] font-semibold">Students Life</h1>
-            <div class="w-20 h-1 bg-green-500 rounded"></div>
+    <section class="px-[140px] mt-24 max-[1200px]:px-[10px] ">
+        <div class="flex items-center justify-center gap-6 max-[1200px]:gap-2">
+            <div class="w-20 h-1 bg-green-500 rounded max-[1200px]:w-12"></div>
+            <h1 class="text-center text-3xl text-[#2D465E] font-semibold max-[1200px]:text-3xl">Students Life</h1>
+            <div class="w-20 h-1 bg-green-500 rounded max-[1200px]:w-12"></div>
         </div>
         <p class="text-center mt-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
         </p>
-        <div class="flex justify-between items-center mt-10">
+        <div class="flex justify-between items-center mt-10 max-[1200px]:flex-wrap">
             <div>
                 <img src="education-square-11.webp" class="w-[700px] rounded-lg " alt="">
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 text-start ml-4 ">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 text-start ml-4 max-[1200px]:ml-0 max-[1200px]:p-0 max-[1200px]:mt-10 max-[1200px]:justify-center">
 
 
-                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg ">
+                <div class="p-6 bg-white border border-gray-200 rounded-lg shadow-lg max-[1200px]:w-full ">
                     <svg class=" w-10 h-10 text-[#119463] mb-3 bg-[#DAEFE7] p-2 rounded-2xl" aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                         <path
@@ -468,7 +479,7 @@
                         process on how to certify for your weekly benefits:</p>
                     </a>
                 </div>
-                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg ">
+                <div class=" p-6 bg-white border border-gray-200 rounded-lg shadow-lg max-[1200px]:w-full ">
                     <svg class=" w-10 h-10 text-[#119463] mb-3 bg-[#DAEFE7] p-2 rounded-2xl" aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                         <path
@@ -481,7 +492,7 @@
                         process on how to certify for your weekly benefits:</p>
                     </a>
                 </div>
-                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg ">
+                <div class=" p-6 bg-white border border-gray-200 rounded-lg shadow-lg max-[1200px]:w-full">
                     <svg class=" w-10 h-10 text-[#119463] mb-3 bg-[#DAEFE7] p-2 rounded-2xl" aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                         <path
@@ -494,7 +505,7 @@
                         process on how to certify for your weekly benefits:</p>
                     </a>
                 </div>
-                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg ">
+                <div class="p-6 bg-white border border-gray-200 rounded-lg shadow-lg max-[1200px]:w-full ">
                     <svg class=" w-10 h-10 text-[#119463] mb-3 bg-[#DAEFE7] p-2 rounded-2xl" aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                         <path
@@ -507,23 +518,23 @@
                         process on how to certify for your weekly benefits:</p>
                     </a>
                 </div>
-                <button class="text-left bg-green-500 p-2 rounded-lg text-white font-semibold w-[210px] mt-3">View All
+                <button class="text-left bg-green-500 p-2 rounded-lg text-white font-semibold w-[210px] mt-3 max-[1200px]:mx-auto">View All
                     Student Activities</button>
 
             </div>
         </div>
     </section>
-    <section class="px-[140px] mt-24">
-        <div class="flex items-center justify-center gap-6">
-            <div class="w-20 h-1 bg-green-500 rounded"></div>
-            <h1 class="text-center text-3xl text-[#2D465E] font-semibold">Testimonials</h1>
-            <div class="w-20 h-1 bg-green-500 rounded"></div>
+    <section class="px-[140px] mt-24 max-[1200px]:px-[10px]">
+        <div class="flex items-center justify-center gap-6 max-[1200px]:gap-2">
+            <div class="w-20 h-1 bg-green-500 rounded max-[1200px]:w-12"></div>
+            <h1 class="text-center text-3xl text-[#2D465E] font-semibold max-[1200px]:text-3xl">Testimonials</h1>
+            <div class="w-20 h-1 bg-green-500 rounded max-[1200px]:w-12"></div>
         </div>
         <p class="text-center mt-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
         </p>
-        <div class="flex gap-10">
+        <div class="flex gap-10 max-[1200px]:flex-wrap max-[1200px]:gap:2">
             <div class="block mt-12">
-                <div class="border border-gray-100 p-5 bg-white rounded-xl mb-[60px] relative">
+                <div class="border border-gray-100 p-5 bg-white rounded-xl mb-[60px] max-[1200px]:mb-10 relative">
                     <svg width="44" height="44" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="absolute top-[-30px]">
                         <circle cx="32" cy="32" r="32" fill="#F4F8F7" />
@@ -543,7 +554,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="border border-gray-100 p-5 bg-white rounded-xl relative ">
+                <div class="border border-gray-100 p-5 bg-white rounded-xl relative  ">
                     <svg width="44" height="44" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="absolute top-[-30px]">
                         <circle cx="32" cy="32" r="32" fill="#F4F8F7" />
@@ -564,7 +575,7 @@
                     </div>
                 </div>
             </div>
-            <div class="block mt-32">
+            <div class="block mt-32 max-[1200px]:mt-0">
                 <div class="border border-green-500 p-5 bg-[#DFEEE9] rounded-xl mb-[60px] relative">
                     <svg width="44" height="44" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="absolute top-[-30px]">
@@ -606,7 +617,7 @@
                     </div>
                 </div>
             </div>
-            <div class="block mt-20">
+            <div class="block mt-20 max-[1200px]:mt-0">
                 <div class="border border-gray-100 p-5 bg-white rounded-xl mb-[60px] relative">
                     <svg width="44" height="44" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="absolute top-[-30px]">
@@ -650,26 +661,26 @@
             </div>
         </div>
     </section>
-    <section class="flex relative px-[40px] lg:px-[140px] mt-[120px]">
-        <div class="w-full lg:w-1/2">
-            <h1 class="text-5xl lg:text-[3.0vw] font-semibold mt-20 mb-10 text-[#2D465E]">
+    <section class="flex relative px-[40px] lg:px-[140px] mt-[120px] max-[1200px]:px-[10px] max-[1200px]:mt-[0px] max-[1200px]:flex-wrap">
+        <div class="w-full lg:w-1/2 max-[1200px]:w-full">
+            <h1 class="text-5xl lg:text-[3.0vw] font-semibold mt-20 mb-10 text-[#2D465E] max-[1200px]:text-lg max-[1200px]:mb-4 max-[1200px]:text-center">
                 Excellence in Education for Over 50 Years
             </h1>
-            <p class="text-[#2D465E] mb-7 text-lg">
+            <p class="text-[#2D465E] mb-7 text-lg max-[1200px]:text-sm max-[1200px]:text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel ultricies magna. Maecenas finibus
                 convallis turpis, non facilisis justo egestas in. Nulla facilisi. Fusce consectetur, enim eget aliquet
                 volutpat, lacus nulla semper velit.
             </p>
 
             <!-- Stats -->
-            <div class="flex flex-wrap gap-7 mb-10">
-                <button class="px-[15px] py-[10px] bg-green-500 text-white rounded-xl">Learn More</button>
-                <button class="px-[15px] py-[10px] border border-[#2D465E] rounded-xl">Virtual Tour</button>
+            <div class="flex flex-wrap gap-7 mb-10 max-[1200px]:justify-center">
+                <button class="px-[15px] py-[10px] bg-green-500 text-white rounded-full">Learn More</button>
+                <button class="px-[15px] py-[10px] border border-[#2D465E] rounded-full">Virtual Tour</button>
             </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 text-start ml-4 ">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 text-start ml-4 max-[1200px]:ml-0 max-[1200px]:w-full">
             <div
-                class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg flex items-center justify-center flex-col ">
+                class="p-6 bg-white border border-gray-200 rounded-lg shadow-lg flex items-center justify-center flex-col max-[1200px]:w-full">
                 <svg class=" w-10 h-10 text-[#119463] mb-5 bg-[#DAEFE7] p-2 rounded-2xl" aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                     <path
@@ -681,7 +692,7 @@
             </div>
 
             <div
-                class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg flex items-center justify-center flex-col ">
+                class=" p-6 bg-white border border-gray-200 rounded-lg shadow-lg flex items-center justify-center flex-col max-[1200px]:w-full">
                 <svg class=" w-10 h-10 text-[#119463] mb-5 bg-[#DAEFE7] p-2 rounded-2xl" aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                     <path
@@ -692,7 +703,7 @@
                 </a>
             </div>
             <div
-                class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg flex items-center justify-center flex-col ">
+                class="p-6 bg-white border border-gray-200 rounded-lg shadow-lg flex items-center justify-center flex-col max-[1200px]:w-full ">
                 <svg class=" w-10 h-10 text-[#119463] mb-5 bg-[#DAEFE7] p-2 rounded-2xl" aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                     <path
@@ -703,7 +714,7 @@
                 </a>
             </div>
             <div
-                class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-lg flex items-center justify-center flex-col ">
+                class="p-6 bg-white border border-gray-200 rounded-lg shadow-lg flex items-center justify-center flex-col max-[1200px]:w-full">
                 <svg class=" w-10 h-10 text-[#119463] mb-5 bg-[#DAEFE7] p-2 rounded-2xl" aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                     <path
@@ -714,8 +725,8 @@
                 </a>
             </div>
     </section>
-    <section class="px-[140px] mt-20">
-        <div class="flex gap-7">
+    <section class="px-[140px] mt-20 max-[1200px]:px-[10px]">
+        <div class="flex gap-7 max-[1200px]:flex-wrap max-[1200px]:justify-center">
             <div class="relative w-[400px] h-[230px] relative rounded-lg">
                 <img src="campus-4.webp" class=" object-cover w-full h-full rounded-lg" alt="">
                 <h1 class="absolute bottom-[60px] left-[30px] text-2xl font-semibold">Top-Ranked Programs</h1>
@@ -737,18 +748,18 @@
         </div>
 
     </section>
-    <section class="px-[140px] mt-24">
-        <div class="flex items-center justify-center gap-6">
-            <div class="w-20 h-1 bg-green-500 rounded"></div>
-            <h1 class="text-center text-3xl text-[#2D465E] font-semibold">Recent News</h1>
-            <div class="w-20 h-1 bg-green-500 rounded"></div>
+    <section class="px-[140px] mt-24 max-[1200px]:px-[10px]">
+        <div class="flex items-center justify-center gap-6 max-[1200px]:gap-2">
+            <div class="w-20 h-1 bg-green-500 rounded max-[1200px]:w-12"></div>
+            <h1 class="text-center text-3xl text-[#2D465E] font-semibold max-[1200px]:text-3xl">Recent News</h1>
+            <div class="w-20 h-1 bg-green-500 rounded max-[1200px]:w-12"></div>
         </div>
         <p class="text-center mt-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
         </p>
 
 
-        <div class="flex gap-10">
-            <div class="max-w-sm bg-white border mt-20 rounded-lg shadow-xl">
+        <div class="flex gap-10 max-[1200px]:flex-wrap max-[1200px]:gap-2 max-[1200px]:justify-center">
+            <div class="max-w-sm bg-white border mt-20 rounded-lg shadow-xl max-[1200px]:mt-10">
                 <a href="#">
                     <img class="rounded-t-lg" src="education-2.webp" alt="img" />
                 </a>
@@ -768,7 +779,7 @@
                     </div>
                 </div>
             </div>
-            <div class="max-w-sm bg-white border mt-20 rounded-lg shadow-xl">
+            <div class="max-w-sm bg-white border mt-20 rounded-lg shadow-xl max-[1200px]:mt-10">
                 <a href="#">
                     <img class="rounded-t-lg" src="blog-post-2.webp" alt="img" />
                 </a>
@@ -788,7 +799,7 @@
                     </div>
                 </div>
             </div>
-            <div class="max-w-sm bg-white border mt-20 rounded-lg shadow-xl">
+            <div class="max-w-sm bg-white border mt-20 rounded-lg shadow-xl max-[1200px]:mt-10">
                 <a href="#">
                     <img class="rounded-t-lg" src="campus-4.webp" alt="img" />
                 </a>
@@ -811,15 +822,15 @@
         </div>
 
     </section>
-    <section class="px-[140px] mt-24">
-        <div class="flex items-center justify-center gap-6">
-            <div class="w-20 h-1 bg-green-500 rounded"></div>
-            <h1 class="text-center text-3xl text-[#2D465E] font-semibold">Events</h1>
-            <div class="w-20 h-1 bg-green-500 rounded"></div>
+    <section class="px-[140px] mt-24 max-[1200px]:px-[10px]">
+        <div class="flex items-center justify-center gap-6 max-[1200px]:gap-2">
+            <div class="w-20 h-1 bg-green-500 rounded max-[1200px]:w-12"></div>
+            <h1 class="text-center text-3xl text-[#2D465E] font-semibold max-[1200px]:text-3xl">Events</h1>
+            <div class="w-20 h-1 bg-green-500 rounded max-[1200px]:w-12"></div>
         </div>
         <p class="text-center mt-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
         </p>
-        <div class="flex justify-center items-center gap-10 mt-[100px]">
+        <div class="flex justify-center items-center gap-10 mt-[100px] max-[1200px]:mt-[30px] max-[1200px]:flex-wrap max-[1200px]:gap-2">
 
             <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
                 class="focus:ring-4 focus:outline-none focus:ring-blue-300  rounded-lg text-xl px-[100px] py-[5px] flex border border-black justify-between items-center"
@@ -854,7 +865,7 @@
                 </ul>
             </div>
             <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
-                class="focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-xl px-[100px] py-[5px] text-left flex border border-black justify-between items-center"
+                class="focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-xl px-[100px] max-[1200px]:px-[88px] py-[5px] text-left flex border border-black justify-between items-center"
                 type="button">All Categories<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -891,7 +902,7 @@
                 <a href="#"
                     class="flex flex-col items-center bg-white border border-gray-100 shadow-xl rounded-lg md:flex-row md:max-w-xl">
                     <div
-                        class="flex flex-col justify-center items-center gap-[5px] bg-green-600 h-full w-[120px] rounded-t-lg rounded-tr-none rounded-br-none rounded-b-lg">
+                        class="flex flex-col justify-center items-center gap-[5px] bg-green-600 h-full w-[120px] max-[1200px]:w-full max-[1200px]:flex-row max-[1200px]:h-[80px] max-[1200px]:rounded-t-lg max-[1200px]:rounded-bl-none rounded-t-lg rounded-tr-none rounded-br-none rounded-b-lg">
                         <p class="text-white font-semibold">FEB</p>
                         <h1 class="text-white font-semibold text-2xl">15</h1>
                         <p class="text-white font-semibold">2025</p>
@@ -919,7 +930,7 @@
                 <a href="#"
                     class="flex flex-col items-center bg-white border border-gray-100 shadow-xl rounded-lg md:flex-row md:max-w-xl">
                     <div
-                        class="flex flex-col justify-center items-center gap-[5px] bg-green-600 h-full w-[120px] rounded-t-lg rounded-b-lg rounded-tr-none rounded-br-none">
+                        class="flex flex-col justify-center items-center gap-[5px] bg-green-600 h-full w-[120px] max-[1200px]:w-full max-[1200px]:flex-row max-[1200px]:h-[80px] max-[1200px]:rounded-t-lg max-[1200px]:rounded-bl-none rounded-t-lg rounded-b-lg rounded-tr-none rounded-br-none">
                         <p class="text-white font-semibold">FEB</p>
                         <h1 class="text-white font-semibold text-2xl">15</h1>
                         <p class="text-white font-semibold">2025</p>
@@ -947,7 +958,7 @@
                 <a href="#"
                     class="flex flex-col items-center bg-white border border-gray-100 shadow-xl rounded-lg md:flex-row md:max-w-xl">
                     <div
-                        class="flex flex-col justify-center items-center gap-[5px] bg-green-600 h-full w-[120px] rounded-t-lg rounded-b-lg rounded-tr-none rounded-br-none">
+                        class="flex flex-col justify-center items-center gap-[5px] bg-green-600 h-full w-[120px] rounded-t-lg rounded-b-lg rounded-tr-none rounded-br-none max-[1200px]:w-full max-[1200px]:flex-row max-[1200px]:h-[80px] max-[1200px]:rounded-t-lg max-[1200px]:rounded-bl-none">
                         <p class="text-white font-semibold">FEB</p>
                         <h1 class="text-white font-semibold text-2xl">15</h1>
                         <p class="text-white font-semibold">2025</p>
@@ -975,7 +986,7 @@
                 <a href="#"
                     class="flex flex-col items-center bg-white border border-gray-100 shadow-xl rounded-lg md:flex-row md:max-w-xl">
                     <div
-                        class="flex flex-col justify-center items-center gap-[5px] bg-green-600 h-full w-[120px] rounded-t-lg rounded-b-lg rounded-tr-none rounded-br-none">
+                        class="flex flex-col justify-center items-center gap-[5px] bg-green-600 h-full w-[120px] rounded-t-lg rounded-b-lg rounded-tr-none rounded-br-none max-[1200px]:w-full max-[1200px]:flex-row max-[1200px]:h-[80px] max-[1200px]:rounded-t-lg max-[1200px]:rounded-bl-none">
                         <p class="text-white font-semibold">FEB</p>
                         <h1 class="text-white font-semibold text-2xl">15</h1>
                         <p class="text-white font-semibold">2025</p>
